@@ -21,7 +21,7 @@ bool checkPrime(uint64_t value) {
 uint64_t nPrime(uint64_t n) {
     uint64_t i = 0;
     uint64_t iter = 2;
-    while(1) {
+    while (1) {
         i += static_cast<uint64_t>(checkPrime(iter));
         if (i == n) return iter;
         iter++;
